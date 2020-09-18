@@ -1,0 +1,21 @@
+  {
+  "name": "VideoChatApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "watch":"npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "keywords": [],
+  "author": "SouravBera",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-peer": "^9.7.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
